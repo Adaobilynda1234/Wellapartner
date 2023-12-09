@@ -57,9 +57,4 @@
   .btn {
     margin-left: 104px;
   }
-  @media (max-width: 768px) {
-    .btn {
-      margin-left: 222px;
-    }
-  }
 }

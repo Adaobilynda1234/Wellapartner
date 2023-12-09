@@ -15,7 +15,7 @@ const Hero = () => {
         </p>
       </div>
       <div className="button">
-        <a href="/pricing" className="btn">
+        <a href="/" className="btn">
           Get started{" "}
           <svg
             xmlns="http://www.w3.org/2000/svg"
