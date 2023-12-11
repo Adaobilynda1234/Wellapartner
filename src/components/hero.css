@@ -30,6 +30,9 @@
   border-radius: 8px;
   outline: none;
   margin-left: 508px;
+  /* display: block;
+  margin: auto;
+  text-align: center; */
 }
 /* media query */
 @media (max-width: 480px) {

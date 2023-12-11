@@ -3,13 +3,6 @@
   --font-family: "Manrope", sans-serif;
   --bg: #34ed72;
   --text-color: #344054;
-  --button: {
-    padding: 16px 20px;
-    background-color: #34ed72;
-    border: none;
-    border-radius: 8px;
-    outline: none;
-  }
 }
 
 a {

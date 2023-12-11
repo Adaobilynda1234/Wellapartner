@@ -1,0 +1,30 @@
+.partner {
+  margin-top: 90px;
+}
+.partner h3 {
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 38.4px */
+  letter-spacing: -0.64px;
+}
+.partner p {
+  color: #475367;
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 28.8px;
+  letter-spacing: -0.48px;
+}
+.Container row img {
+  width: 121px;
+  height: 37px;
+}
+.last-logo {
+  width: 121px;
+  height: 37px;
+}
