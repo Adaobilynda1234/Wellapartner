@@ -14,16 +14,21 @@ const Revenue = () => {
         <h2 className="fw-bold pt-1">Boost your revenue </h2>
         <h2 className="text-muted">with Wellapartner</h2>
         <div>
-          <img src={Dash} className="dash" alt="" />
+          <img
+            style={{ width: 638, height: 400 }}
+            src={Dash}
+            className="img-fluid d-block m-auto"
+            alt=""
+          />
           <img src={Rev} className="rev" alt="" />
         </div>
-        <p className="para">
+        <p className="para mb-5">
           With our innovative solutions and strategic
           <br /> expertise, we empower businesses like yours
           <br /> to reach new heights of success.
         </p>
         <div className="button">
-          <a href="/" className="btn">
+          <a href="/" className="butt">
             Get started
             <img src={arrow} alt="" />
           </a>

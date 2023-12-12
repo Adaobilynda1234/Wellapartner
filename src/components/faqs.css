@@ -1,0 +1,11 @@
+.faq h1 {
+  color: var(--text-color);
+  text-align: center;
+  font-family: var(--font-family);
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 48px */
+  letter-spacing: -1.92px;
+  margin-top: 12px;
+}

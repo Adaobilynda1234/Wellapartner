@@ -35,12 +35,16 @@
   letter-spacing: -0.64px;
 }
 .btn {
+  text-align: center;
+}
+.butt {
   padding: 16px 20px;
   background-color: var(--bg);
   border: none;
   border-radius: 8px;
   outline: none;
-  margin-left: 498px;
+
+  /* margin-left: 498px; */
   /* display: block;
   margin: auto;
   text-align: center; */

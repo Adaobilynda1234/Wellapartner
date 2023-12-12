@@ -1,13 +1,16 @@
 import React from "react";
 import "./home.css";
-import Hero from "../components/Hero";
-import Wallpaper from "../components/Wallpaper";
-import Partner from "../components/Partner";
-import Youtube from "../components/Youtube";
-import Revenue from "../components/Revenue";
-import Patient from "../components/Patient";
-import Business from "../components/Business";
-
+import {
+  Business,
+  Faqs,
+  Footer,
+  Hero,
+  Partner,
+  Patient,
+  Revenue,
+  Wallpaper,
+  Youtube,
+} from "../components";
 const Home = () => {
   return (
     <div>
@@ -20,6 +23,8 @@ const Home = () => {
       <Revenue />
       <Patient />
       <Business />
+      <Faqs />
+      <Footer />
     </div>
   );
 };

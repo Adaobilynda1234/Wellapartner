@@ -36,14 +36,17 @@
   line-height: 120%; /* 38.4px */
   letter-spacing: -0.64px;
 }
-.btn {
+.button {
+  text-align: center;
+}
+.butt {
   padding: 16px 20px;
   background-color: var(--bg);
   border: none;
   border-radius: 8px;
   outline: none;
-  margin-left: 498px;
-  /* display: block;
+  /*margin-left: 498px;
+  display: block;
   margin: auto;
   text-align: center; */
 }

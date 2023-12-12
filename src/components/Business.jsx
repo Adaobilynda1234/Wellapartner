@@ -16,14 +16,19 @@ const Business = () => {
         <h2 className="light">Continuous Support for</h2>
         <h2 className="Bold">Business development</h2>
         <div>
-          <img src={business} className="business-image" alt="" />
+          <img
+            style={{ width: 638, height: 400 }}
+            src={business}
+            className="img-fluid d-block m-auto"
+            alt=""
+          />
         </div>
-        <p className="para">
+        <p className="para mb-5">
           Whether you are a startup or an established <br /> company, having the
           right support can make <br /> a significant difference
         </p>
         <div className="button">
-          <a href="/" className="btn">
+          <a href="/" className="butt">
             Get started
             <img src={arrow} alt="" />
           </a>

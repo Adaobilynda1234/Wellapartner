@@ -16,16 +16,21 @@ const Patient = () => {
         <h2 className="light">Better Patient </h2>
         <h2 className="Bold">Management & Care</h2>
         <div>
-          <img src={patient} className="patient-img" alt="" />
+          <img
+            style={{ width: 638, height: 400 }}
+            src={patient}
+            className="img-fluid d-block m-auto"
+            alt=""
+          />
         </div>
-        <p className="para">
+        <p className="para mb-5">
           Our platform has redefined the way you <br /> interact with patients,
           ensuring a seamless,
           <br />
           personalized, and efficient experience.
         </p>
         <div className="button">
-          <a href="/" className="btn">
+          <a href="/" className="butt">
             Get started
             <img src={arrow} alt="" />
           </a>
