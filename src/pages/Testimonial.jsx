@@ -1,10 +1,14 @@
 import React from "react";
 import "./testimonial.css";
+import { Customer, Youtube, Footer, Custest } from "../components";
 
 const Testimonial = () => {
   return (
     <div>
-      <h1>Testimonial</h1>
+      <Customer />
+      <Youtube />
+      <Custest />
+      <Footer />
     </div>
   );
 };

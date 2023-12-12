@@ -8,3 +8,5 @@ export { default as Patient } from "./Patient";
 export { default as Revenue } from "./Revenue";
 export { default as Wallpaper } from "./Wallpaper";
 export { default as Youtube } from "./Youtube";
+export { default as Customer } from "./Customer";
+export { default as Custest } from "./Custest";
