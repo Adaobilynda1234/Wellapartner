@@ -15,8 +15,8 @@ const Custest = () => {
                 say that it has transformed the way I conduct transactions
                 online”
               </p>
-              <p className="fw-bold name">Mike</p>
-              <p className="para">Lagos, Nigeria</p>
+              <p className="fw-bold mt-3">Mike</p>
+              <p className="mt-1">Lagos, Nigeria</p>
             </div>
             {/* second box */}
             <div className="box">

@@ -10,3 +10,7 @@ export { default as Wallpaper } from "./Wallpaper";
 export { default as Youtube } from "./Youtube";
 export { default as Customer } from "./Customer";
 export { default as Custest } from "./Custest";
+export { default as Planhero } from "./Planhero";
+export { default as Sub } from "./Sub";
+export { default as Compare } from "./Compare";
+export { default as Details } from "./Details";

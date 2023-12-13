@@ -1,0 +1,20 @@
+.display {
+  display: flex;
+  gap: 125px;
+}
+
+.image-display {
+  display: flex;
+  gap: 225px;
+}
+@media (max-width: 480px) {
+  .display {
+    display: grid;
+    gap: 2px;
+  }
+  .image-display {
+    display: flex;
+    margin-left: 50px;
+    gap: 45px;
+  }
+}

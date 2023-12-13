@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="logo">
             <img src={footer} alt="" />
           </div>
-          <div className="phone d-flex ms-2 me-2 gap-3 text-white">
+          <div className="phone d-flex ms-2 me-2 gap-3 ">
             <p>contact@wellahealth.com</p>
             <p>+2349087482264</p>
           </div>
