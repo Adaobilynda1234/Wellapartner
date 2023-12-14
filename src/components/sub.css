@@ -176,6 +176,7 @@ li {
   background: #3eaf3f;
   margin-left: 22px;
   margin-top: 37px;
+  color: #fff;
 }
 .second-box {
   margin-top: 225px;
@@ -186,4 +187,63 @@ li {
 }
 .fourth-box {
   margin-top: 180px;
+}
+
+/* media query */
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .subscription-box {
+    width: 349px;
+    height: 525px;
+    border-radius: 16px;
+    border: 0.2px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    margin-left: 200px;
+  }
+  .subscription-box1 {
+    width: 349px;
+    height: 525px;
+    border-radius: 16px;
+    border: 0.2px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    margin-left: 200px;
+  }
+  .subscription-box3 {
+    width: 349px;
+    height: 525px;
+    border-radius: 16px;
+    border: 0.2px solid rgba(0, 0, 0, 0.3);
+    background-color: #033;
+    color: #fff;
+    margin-left: 200px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+  .subscription-box {
+    width: 349px;
+    height: 525px;
+    border-radius: 16px;
+    border: 0.2px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+  .subscription-box1 {
+    width: 349px;
+    height: 525px;
+    border-radius: 16px;
+    border: 0.2px solid rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    margin-left: 200px;
+  }
+  .subscription-box3 {
+    width: 349px;
+    height: 525px;
+    border-radius: 16px;
+    border: 0.2px solid rgba(0, 0, 0, 0.3);
+    background-color: #033;
+    color: #fff;
+    margin-left: 200px;
+    margin-bottom: 20px;
+  }
 }

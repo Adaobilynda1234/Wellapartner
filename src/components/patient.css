@@ -57,11 +57,12 @@
   line-height: 120%; /* 24px */
   letter-spacing: -0.4px;
 }
-.patient .grid-paragraph {
+.grid-paragraph {
   color: #475367;
   font-family: var(--font-family);
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 145%; /* 23.2px */
+  text-align: left;
 }

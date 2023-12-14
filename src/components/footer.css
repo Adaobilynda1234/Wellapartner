@@ -2,7 +2,9 @@ footer {
   background-color: var(--text-color);
   color: #fff;
   padding: 10px 8px;
+  width: 100%;
 }
 .phone p {
   color: #fff;
+  font-size: 12px;
 }

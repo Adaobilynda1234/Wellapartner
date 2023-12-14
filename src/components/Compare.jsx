@@ -1,5 +1,9 @@
 import React from "react";
 import "./compare.css";
+import check from "../assets/check.svg";
+import white from "../assets/whitegood.svg";
+import whitebad from "../assets/whitebad.svg";
+import bad from "../assets/blackbad.svg";
 
 const Compare = () => {
   return (
@@ -9,9 +13,35 @@ const Compare = () => {
         <p className="para">
           Overview of what’s included in our different plans.
         </p>
+        <div className="small-device">
+          <button className="basic">Basic</button>
+          <button className="basic">Standard</button>
+          <button className="business">Business</button>
+          <button className="basic">Premium</button>
+        </div>
+        {/* small device button */}
         {/* beginning of grid */}
         <div className="container">
           <div className="row">
+            {/* the other container for laptop view */}
+            <div className="col">
+              <div className="details-desktop">
+                <p>HMO Drug Refills</p>
+                <p>Handle Malaria Claims</p>
+                <p>Wellapartner App Access</p>
+                <p>Drug Pick Ups for Telemedicne</p>
+                <p>Patient Records Tracking</p>
+                <p>Business Support/Staff Training</p>
+                <p>Pharmacy listing on Wella Platform</p>
+                <p>Patient access to telemedicine services</p>
+                <p>Bulk SMS</p>
+                <p>Automated Patient Follow up</p>
+                <p>Chronic Disease Management Dasboard</p>
+                <p>Medication Group Purchase</p>
+                <p>Inventory Insights</p>
+                <p>Marketing Support</p>
+              </div>
+            </div>
             <div className="col">
               {/* first container */}
               <div className="first-box">
@@ -25,6 +55,23 @@ const Compare = () => {
                   <a className="cta-compare" href="">
                     Get started
                   </a>
+                </div>
+                {/* beginning of mark */}
+                <div className="mark">
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={bad} alt="" />
+                  <img src={bad} alt="" />
+                  <img src={bad} alt="" />
+                  <img src={bad} alt="" />
+                  <img src={bad} alt="" />
+                  <img src={bad} alt="" />
                 </div>
               </div>
             </div>
@@ -42,6 +89,23 @@ const Compare = () => {
                     Get started
                   </a>
                 </div>
+                {/* beginning of mark */}
+                <div className="mark">
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={bad} alt="" />
+                  <img src={bad} alt="" />
+                  <img src={bad} alt="" />
+                  <img src={bad} alt="" />
+                  <img src={bad} alt="" />
+                </div>
               </div>
             </div>
             {/* third  */}
@@ -58,6 +122,22 @@ const Compare = () => {
                     Get started
                   </a>
                 </div>
+                <div className="mark3">
+                  <img src={white} alt="" />
+                  <img src={white} alt="" />
+                  <img src={white} alt="" />
+                  <img src={white} alt="" />
+                  <img src={white} alt="" />
+                  <img src={white} alt="" />
+                  <img src={white} alt="" />
+                  <img src={white} alt="" />
+                  <img src={white} alt="" />
+                  <img src={white} alt="" />
+                  <img src={white} alt="" />
+                  <img src={whitebad} alt="" />
+                  <img src={whitebad} alt="" />
+                  <img src={whitebad} alt="" />
+                </div>
               </div>
             </div>
             {/* fourth */}
@@ -73,6 +153,23 @@ const Compare = () => {
                   <a className="cta-compare" href="">
                     Get started
                   </a>
+                </div>
+                {/* beginning of mark */}
+                <div className="mark">
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
+                  <img src={check} alt="" />
                 </div>
               </div>
             </div>

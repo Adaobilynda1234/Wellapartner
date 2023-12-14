@@ -9,8 +9,8 @@ import clip from "../assets/Clip path group.svg";
 
 const Revenue = () => {
   return (
-    <div className="container mt-5">
-      <div className="Revenue">
+    <div className="Revenue">
+      <div className="container mt-5">
         <h2 className="fw-bold pt-1">Boost your revenue </h2>
         <h2 className="text-muted">with Wellapartner</h2>
         <div>

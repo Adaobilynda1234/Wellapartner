@@ -71,7 +71,16 @@
     width: 133px;
     height: 90px;
     position: relative;
-    left: 320px;
+    left: 220px;
+    bottom: 320px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .Revenue .rev {
+    width: 133px;
+    height: 90px;
+    position: relative;
+    left: 490px;
     bottom: 320px;
   }
 }

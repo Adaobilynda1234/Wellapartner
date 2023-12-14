@@ -1,6 +1,7 @@
 import React from "react";
 import "./details.css";
 import check from "../assets/check.svg";
+import bad from "../assets/blackbad.svg";
 
 const Details = () => {
   return (
@@ -99,7 +100,7 @@ const Details = () => {
           <p className="mt-3">Patient access to telemedicine services</p>
         </div>
         <div className="image-display">
-          <img src={check} alt="" />
+          <img src={bad} alt="" />
           <img src={check} alt="" />
           <img className="image-bg" src={check} alt="" />
           <img src={check} alt="" />
@@ -111,8 +112,8 @@ const Details = () => {
           <p className="mt-3">Bulk SMS</p>
         </div>
         <div className="image-display">
-          <img src={check} alt="" />
-          <img src={check} alt="" />
+          <img src={bad} alt="" />
+          <img src={bad} alt="" />
           <img className="image-bg" src={check} alt="" />
           <img src={check} alt="" />
         </div>
@@ -123,8 +124,8 @@ const Details = () => {
           <p className="mt-3">Automated Patient Follow up</p>
         </div>
         <div className="image-display">
-          <img src={check} alt="" />
-          <img src={check} alt="" />
+          <img src={bad} alt="" />
+          <img src={bad} alt="" />
           <img className="image-bg" src={check} alt="" />
           <img src={check} alt="" />
         </div>
@@ -135,8 +136,8 @@ const Details = () => {
           <p className="mt-3">Chronic Disease Management Dasboard</p>
         </div>
         <div className="image-display">
-          <img src={check} alt="" />
-          <img src={check} alt="" />
+          <img src={bad} alt="" />
+          <img src={bad} alt="" />
           <img className="image-bg" src={check} alt="" />
           <img src={check} alt="" />
         </div>
@@ -147,8 +148,8 @@ const Details = () => {
           <p className="mt-3">Medication Group Purchase</p>
         </div>
         <div className="image-display">
-          <img src={check} alt="" />
-          <img src={check} alt="" />
+          <img src={bad} alt="" />
+          <img src={bad} alt="" />
           <img className="image-bg" src={check} alt="" />
           <img src={check} alt="" />
         </div>
@@ -159,8 +160,8 @@ const Details = () => {
           <p className="mt-3">Inventory Insights</p>
         </div>
         <div className="image-display">
-          <img src={check} alt="" />
-          <img src={check} alt="" />
+          <img src={bad} alt="" />
+          <img src={bad} alt="" />
           <img className="image-bg" src={check} alt="" />
           <img src={check} alt="" />
         </div>
@@ -171,8 +172,8 @@ const Details = () => {
           <p className="mt-3">Marketing Support</p>
         </div>
         <div className="image-display">
-          <img src={check} alt="" />
-          <img src={check} alt="" />
+          <img src={bad} alt="" />
+          <img src={bad} alt="" />
           <img className="image-bg" src={check} alt="" />
           <img src={check} alt="" />
         </div>

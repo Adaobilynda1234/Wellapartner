@@ -1,12 +1,12 @@
 .display {
-  display: flex;
-  gap: 125px;
+  display: none;
+  /* gap: 125px; */
 }
 
-.image-display {
+/* .image-display {
   display: flex;
   gap: 225px;
-}
+} */
 @media (max-width: 480px) {
   .display {
     display: grid;
@@ -16,5 +16,16 @@
     display: flex;
     margin-left: 50px;
     gap: 45px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  .display {
+    display: grid;
+    gap: 2px;
+  }
+  .image-display {
+    display: flex;
+    margin-left: 50px;
+    gap: 152px;
   }
 }

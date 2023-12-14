@@ -11,8 +11,8 @@ import coin from "../assets/Coins.svg";
 
 const Business = () => {
   return (
-    <div className="container">
-      <div className="Business">
+    <div className="Business">
+      <div className="container">
         <h2 className="light">Continuous Support for</h2>
         <h2 className="Bold">Business development</h2>
         <div>
