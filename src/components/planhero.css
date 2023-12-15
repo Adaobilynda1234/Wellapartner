@@ -37,6 +37,7 @@
   border: none;
   background-color: rgba(0, 0, 0, 0.01);
   color: #20bf55;
+  font-size: 14px;
 }
 
 @media (max-width: 480px) {
