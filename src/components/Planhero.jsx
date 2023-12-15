@@ -16,7 +16,7 @@ const Planhero = () => {
           </div>
           <div className="yearly d-flex gap-2">
             <button className="year">Yearly </button>
-            <button className="save">save up t0 25%</button>
+            <button className="save">save up to 25%</button>
           </div>
         </div>
       </div>

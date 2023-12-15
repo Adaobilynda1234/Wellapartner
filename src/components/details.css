@@ -14,8 +14,8 @@
   }
   .image-display {
     display: flex;
-    margin-left: 50px;
-    gap: 45px;
+    margin-left: 30px;
+    gap: 85px;
   }
 }
 @media screen and (min-width: 481px) and (max-width: 900px) {
